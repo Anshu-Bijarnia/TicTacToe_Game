@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 if (won == 1) {
                     status = 1
-                    Toast.makeText(this, "${name} won the game", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, "won the game", Toast.LENGTH_LONG).show()
                     gameReset()
                 }
                 // Checking all the coloumns
@@ -102,7 +102,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 if (won == 1) {
                     status = 1;
-                    Toast.makeText(this, "$name won the game", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, "won the game", Toast.LENGTH_LONG).show()
                     gameReset()
                 }
                 // Check Diagonals
@@ -131,7 +131,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 if (won == 1) {
                     status = 1;
-                    Toast.makeText(this, "$name won the game", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, "won the game", Toast.LENGTH_LONG).show()
                     gameReset()
                 }
             }
